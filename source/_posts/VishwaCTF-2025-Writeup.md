@@ -277,7 +277,7 @@ This is a challenge where, when I run the file, I encounter a bunch of errors
 
 ![error](https://raw.githubusercontent.com/3r0th3r-CC/3r0th3r-CC.github.io/master/source/assets/images/posts/VishwaCTF-2025/Reverse/hungry-friends-error.png)
 
-After going to https://www.dllme.com to download the necessary DLL files, I was finally able to run the program
+After going to https://www.dllme.com to download all of the necessary DLL files, I was finally able to run the program
 
 ![game](https://raw.githubusercontent.com/3r0th3r-CC/3r0th3r-CC.github.io/master/source/assets/images/posts/VishwaCTF-2025/Reverse/hungry-friends-game.png)
 
@@ -299,7 +299,7 @@ Now, the remaining task is to set a breakpoint at `0x00401C1F` and debug it in *
 
 This is a reverse engineering challenge involving a **Unity** game. The goal of the challenge is to find the password to unlock a safe and retrieve the flag
 
-Typically, I start by locating the Assembly-CSharp.dll file and analyzing it wit **dnSpy**
+Typically, I start by locating the `Assembly-CSharp.dll` file and analyzing it wit **dnSpy**
 
 When inspecting the source code, I noticed it was obfuscated. To make it more readable, I opened it in **VSCode** and renamed variables and functions
 
