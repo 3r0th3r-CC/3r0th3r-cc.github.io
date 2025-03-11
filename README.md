@@ -50,9 +50,10 @@ Now you can create a new post and write your stuff:
 hexo new <new_post_name>
 ```
 
-> The new post will be located at `/source/_posts`
-
-> You should save your images, videos or scripts at `/source/assets`. For example: `/source/assets/images/posts/testctf-writeup/a.png`
+> [!TIP]
+> If the post name has space, warp it with quote like this `hexo new "new post name with space"`  
+> The new post will be located at `/source/_posts`  
+> You should save your images, videos or scripts at `/source/assets` like `/source/assets/images/posts/testctf-writeup/a.png`
 
 If you want to see how your post looks like on blog, just need to run this following command:
 
@@ -123,3 +124,4 @@ Now you are up to date!
 - Basic HTML: https://www.w3schools.com/html/default.asp
 - Basic CSS: https://www.w3schools.com/css/default.asp
 - Basic JavaScript: https://www.w3schools.com/Js/default.asp
+- Kaomoji: https://kaomoji.ru/en/
