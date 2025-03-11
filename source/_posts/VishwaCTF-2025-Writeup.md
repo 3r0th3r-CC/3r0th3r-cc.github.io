@@ -167,7 +167,7 @@ Like every other web chall, I recon the web, and I realized that I must focus on
 
 Look at the source of `/login`, I saw `/dashboard` and `/auth` path
 
-![forgot-h1-login-path](https://raw.githubusercontent.com/3r0th3r-CC/3r0th3r-CC.github.io/master/source/assets/images/posts/VishwaCTF-2025/Web/forgot-h1-path.png)
+![forgot-h1-login-path](https://raw.githubusercontent.com/3r0th3r-CC/3r0th3r-CC.github.io/master/source/assets/images/posts/VishwaCTF-2025/Web/forgot-h1-login-path.png)
 
 In `/dashboard`, I look at the source code again and I found an email in the comment: `ark.dev@hackerone.com`
 
@@ -656,3 +656,7 @@ svg {
 ![flag](https://raw.githubusercontent.com/3r0th3r-CC/3r0th3r-CC.github.io/master/source/assets/images/posts/VishwaCTF-2025/Steg/spilled-paint-water-fixed.png)
 
 > **FLAG: VishwaCTF{STROKE__N_FILL}**
+
+![i need some head pats](https://i.imgur.com/fGWriq1.jpeg)
+
+Thanks for reading guys, really appreciate, it was pretty long right?
