@@ -9,6 +9,7 @@ tags:
   - web
   - forensics
   - reverse
+  - crypto
   - pwn
   - osint
   - phishing
