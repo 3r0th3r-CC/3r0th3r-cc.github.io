@@ -93,7 +93,7 @@ After scanning, I found `port 5000`, yay
 
 ![port5000](https://raw.githubusercontent.com/3r0th3r-CC/3r0th3r-CC.github.io/master/source/assets/images/posts/VishwaCTF-2025/Web/scan-it-to-stay-safe-port-5000.png)
 
-The next idea is to found some hidden paths in port 5000, and here I dirb wordlist
+The next idea is to found some hidden paths in `port 5000`, and here I use dirb wordlist
 
 Later, I found `/console`. However, after some tests with the internal **Werkzeug**, I wasn't able to execute commands or exploit path traversal to get the flag :(
 
@@ -135,9 +135,9 @@ Alright, look like we have another SSRF challenge ~
 
 My first try is http://127.0.0.1:8080/flag but no luck, it forbidden
 
-After some testing, I realized some filters like only allow http, https or block 127.0.0.1,...
+After some testing, I realized some filters like only allow http, https or block `127.0.0.1`,...
 
-At first, I focused on the ip address and try to turn it to 0.0.0.0, 2130706433,... but none of those worked
+At first, I focused on the ip address and try to turn it to `0.0.0.0`, `2130706433`,... but none of those worked
 
 I started brainstorming and realized I had overlooked something: what about redirects? I attempted to set up a host that could redirect, but since I'm broke, you know...
 
@@ -470,7 +470,7 @@ FOUND! Base key: 0x15 -> VishwaCTF{VIC_Decoded_113510}​
 
 When I came to this challenge, the first thing I saw was two **GIFs** of dancing stickmen
 
-At first, I thought, "Maybe overlaying these two might reveal the text in the correct flag order." Hah~ too inexperienced
+At first, I thought, "Maybe overlaying these two might reveal the text in the correct flag order" Hah~ too inexperienced
 
 After suffering with the first approach, I searched for **dancing stickman cipher** and found this:
 
@@ -504,7 +504,7 @@ I can find all of it through the main page vishwactf.com except **Twitter (X)**
 - **LinkedIn**: https://www.linkedin.com/company/cybercell-viit/
 - **Instagram**: https://www.instagram.com/cybercell_viit/
 
-About X (Twitter), I just need to search on Google "VishwaCTF Twitter" and I got the link
+About **X (Twitter)**, I just need to search on Google "VishwaCTF Twitter" and I got the link
 - **Twitter (X)**: https://x.com/cybercellviit
 
 However, I haven't found any flags in posts on **LinkedIn** or **Twitter (X)**. The only remaining social media platform to check is **Instagram**
@@ -575,7 +575,7 @@ Look at the left, I saw at lot of people and from my experience when playing **G
 
 ![indians](https://raw.githubusercontent.com/3r0th3r-CC/3r0th3r-CC.github.io/master/source/assets/images/posts/VishwaCTF-2025/OSINT/the-summit-indians.png)
 
-So from all of these information and the description, I think that we have to find an important event?
+So from all of these information and the description, I think that we have to find an important event in India?
 
 Initially, our team was in vain because it too vague. But then later, a member in team noticed this in the description: "with a lot of attention from the media"
 
@@ -647,7 +647,7 @@ I opened the file on **svgviewer.dev** and then deleted a few lines like the one
 
 and
 
-```html
+```css
 svg {
     background-color:#a2b5e0 ;
 }

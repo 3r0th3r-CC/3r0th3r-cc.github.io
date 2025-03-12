@@ -11,6 +11,9 @@
 - [Digital Dragons CTF 2024 Writeup](https://3r0th3r-cc.github.io/2024/08/25/Digital-Dragons-CTF-2024-Writeup/)
 <!-- Fetch-Blog-Post:End -->
 
+> [!NOTE]
+> The instructions below are only for my team and collaborators (if any), so if you just want to read our blog, skip this part :3
+
 ## :computer: Installation
 
 ### GIT
@@ -39,7 +42,7 @@ npm i hexo && sudo npm install hexo-cli -g
 
 ## :writing_hand: Writing
 
-First, let's create a new branch **(Please do not write directly on the master branch)**:
+First, let's create a new branch **(Please do not write directly on the master branch ~~unless you're admin~~)**:
 
 ```sh
 git checkout -b <new_branch_name>
