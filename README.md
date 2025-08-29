@@ -124,6 +124,7 @@ Now you are up to date!
 
 - Install NodeJS: https://nodejs.org/en/download/package-manager/all
 - Convert Image to Favicon: https://favicon.io/favicon-converter/
+- Convert Image to SVG: https://picsvg.com/
 - GitHub Markdown: https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
 - Basic HTML: https://www.w3schools.com/html/default.asp
 - Basic CSS: https://www.w3schools.com/css/default.asp
