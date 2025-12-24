@@ -102,7 +102,7 @@ git push
 
 3. After creating the pull request, if there are no conflicts, merge your branch with the **master** branch and then delete it
 
-> In case any conflict arises, ask the **admin** and he will definitely resolve it for you :)
+> In case any conflict arises, ask the **admin** and he will definitely resolve it for you :))
 
 ## :recycle: Update
 
